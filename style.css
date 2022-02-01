@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 39, 41);
+}
+
+.container {
+    position: relative;
+    background-image: url(./media/tasbex.jpg);
+    width: 280px;
+    height: 500px;
+    margin: 4em auto;
+    background-color: black;
+}
+.container .indicator::selection{
+    background: none;
+}
+
+.indicator {
+    width: 3.32em;
+    font-size: 40px;
+    height: 1.3em;
+    line-height: 50px;
+    position: absolute;
+    top: 251px;
+    left: 1.8em;
+    border: 2px solid #747474;
+    border-radius: 7px;
+    color: white;
+    text-align: end;
+    background-image: linear-gradient(to right, #2D302D, #404440);
+}
+
+.reset {
+    width: 1.2em;
+    height: 1.2em;
+    background-image: linear-gradient(to right, #C3C3C3, #6c6d6e);
+    border-radius: 50%;
+    position: absolute;
+    top: 335px;
+    left: 11em;
+}
+
+.reset:hover {
+    background-image: linear-gradient(to left, #C3C3C3, #6c6d6e);
+}
+.reset:active{
+    transform: scale(1.3);
+}
+.count {
+    width: 4em;
+    height: 4em;
+    background-image: linear-gradient(to right top, #C3C3C3, #797a7a);
+    border-radius: 50%;
+    position: absolute;
+    top: 355px;
+    left: 6.7em;
+}
+
+.count:hover {
+    background-image: linear-gradient(to left bottom, #C3C3C3, #797a7a);
+}
+.count:active {
+    transform: scale(1.3);
+}
+
+.closer {
+    width: 280px;
+    height: 45px;
+    position: absolute;
+    background-color: rgb(37, 39, 41);
+}
